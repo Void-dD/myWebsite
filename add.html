@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Addition Calculator{% endblock %}
+{% block content %}
+<form action="#" method="POST">
+    <p>First Number:</p>
+    <input type="number" name="addone" min="0" max="99999">
+    <p>Second Number:</p>
+    <input type="number" name="addtwo" min="0" max="99999">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
